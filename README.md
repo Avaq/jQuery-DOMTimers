@@ -7,7 +7,7 @@ A tiny addition to jQuery. A few simple methods for creating Deferreds that reso
 ## But why?!
 
 This is part of my personal project to turn every asynchronous task in JavaScript into a jQuery.Deferred.
-This would make my life as a JavaScript that much easier. It would allow for code like this:
+This would make my life as a JavaScript programmer that much easier. It would allow for code like this:
 
 ```js
 //The function that uses data returned from the ajax request to the server to render a page.

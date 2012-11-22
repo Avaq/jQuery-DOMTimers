@@ -52,3 +52,6 @@ Each call to this method creates new promise objects that each resolve as soon a
 ## License
 
 Copyright (c) 2012 Avaq, https://github.com/Avaq
+
+jQuery DOMTimers is licensed under the MIT license. The license is included as
+[LICENSE](https://github.com/Avaq/jQuery-DOMTimers/blob/master/README) in this directory.

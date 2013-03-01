@@ -1,4 +1,4 @@
-# jQuery DOMTimers (version 1.0.0)
+# jQuery DOMTimers (version 1.0.1)
 
 ## Introduction
 

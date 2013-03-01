@@ -4,7 +4,7 @@
 * Licensed under the MIT license (/LICENSE)
 *
 * @author Aldwin "Avaq" Vlasblom <aldwin.vlasblom@gmail.com>, https://github.com/Avaq
-* @version 1.0.0
+* @version 1.0.1
 * @homepage https://github.com/Avaq/jQuery-DOMTimers
 */
 

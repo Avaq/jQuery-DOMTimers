@@ -1,6 +1,6 @@
 {
   "name": "domtimers",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "title": "jQuery DOMTimers - Deferred callbacks when DOM loads and renders.",
   "author": {
     "name": "Aldwin Vlasblom",
@@ -17,9 +17,8 @@
   },
   "description": "Adds two functions to the jQuery library: $.DOMReady() - Returns a Deferred that resolves when the DOM is ready. $.DOMRendered() - Returns a Deferred that resolves when the DOM has finished rendering the HTML.",
   "keywords": [
-    "Document Object Model",
     "DOM",
-    "DOM events",
+    "events",
     "DOMReady",
     "rendering",
     "ready",
@@ -32,5 +31,5 @@
   "homepage": "https://github.com/Avaq/jQuery-DOMTimers",
   "docs": "https://github.com/Avaq/jQuery-DOMTimers/blob/master/README.md",
   "bugs": "https://github.com/Avaq/jQuery-DOMTimers/issues",
-  "download": "https://github.com/Avaq/jQuery-DOMTimers/zipball/v1.0.0"
+  "download": "https://github.com/Avaq/jQuery-DOMTimers/zipball/stable"
 }

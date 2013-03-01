@@ -1,13 +1,20 @@
-# jQuery DOMTimers (version 0.2 beta)
+# jQuery DOMTimers (version 1.0.0)
 
 ## Introduction
 
-A tiny addition to jQuery. A few simple methods for creating Deferreds that resolve on certain DOM changes.
+Adds two functions to the jQuery library: $.DOMReady() - Returns a Deferred that resolves
+when the DOM is ready. $.DOMRendered() - Returns a Deferred that resolves when the DOM has
+finished rendering the HTML.
 
-## But why?!
+## Why?!
 
-This is part of my personal project to turn every asynchronous task in JavaScript into a jQuery.Deferred.
-This would make my life as a JavaScript programmer that much easier. It would allow for code like this:
+This is part of my personal project to turn every asynchronous task in JavaScript into a
+jQuery.Deferred. It would make my, and your life as a JavaScript programmer that much easier.
+
+ - [jQuery.DOMTimers](https://github.com/Avaq/jQuery-DOMTimers) - Deferred for DOM timing events.
+ - [jQuery.Postpone](https://github.com/Avaq/jQuery-Postpone) - Deferred for setTimeout and setInterval.
+
+This plug-in allows for code like this:
 
 ```js
 //The function that uses data returned from the ajax request to the server to render a page.
@@ -32,20 +39,28 @@ $.when($.ajax('my/url.json'), $.DOMReady()).done(function(ajax, domready){
 });
 ```
 
+## Download
+
+ - [latest-stable.zip](https://github.com/Avaq/jQuery-Postpone/zipball/stable) (recommended)
+ - [latest-development-build.zip](https://github.com/Avaq/jQuery-Postpone/zipball/master)
+
+See [all available downloads](https://github.com/Avaq/jQuery-Postpone/tags).
+
 ## jQuery methods
 
 ### jQuery.DOMReady()
 
-Returns a `Deferred.promise()` that resolves as soon as the DOM has loaded. After the DOM has loaded, additional
-calls to this method return the same `Deferred.promise()` object.
+Returns a `Deferred.promise()` that resolves as soon as the DOM has loaded. After the DOM
+has loaded, additional calls to this method return the same `Deferred.promise()` object.
 
 ### jQuery.DOMRendered()
 
-Each call to this method creates new promise objects that each resolve as soon as the DOM has finished rendering.
+Each call to this method creates new promise objects that each resolve as soon as the DOM
+has finished rendering.
 
 ## License
 
-Copyright (c) 2012 Avaq, https://github.com/Avaq
+Copyright (c) 2012-2013 Avaq, https://github.com/Avaq
 
 jQuery DOMTimers is licensed under the MIT license. The license is included as
-[LICENSE](https://github.com/Avaq/jQuery-DOMTimers/blob/master/README) in this directory.
+[LICENSE](https://github.com/Avaq/jQuery-DOMTimers/blob/master/LICENSE) in this directory.
